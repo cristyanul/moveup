@@ -1,0 +1,208 @@
+.site {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.meniu {
+  top: 0;
+  left: 0;
+  max-width: 200vw;
+  height: 10vh;
+  background-color: #edb458;
+  min-height: 105px;
+  max-height: 105px;
+  position: sticky;
+  z-index: 1;
+  box-shadow: 0px 0.1vw 1vw;
+  margin-left: 0;
+}
+
+.navbar {
+  right: 100%;
+  height: 100%;
+  width: 35vw;
+  min-height: 54px;
+  margin-left: 64vw;
+}
+
+.navbar_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 10vw;
+  height: 95%;
+  min-height: 54px;
+  background-color: #edb458;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  margin-left: 0vw;
+  transition: 0.1s;
+  transition-timing-function: linear;
+  margin-left: 0;
+}
+
+.buttonselect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 10vw;
+  height: 95%;
+  min-height: 54px;
+  background-color: #edb458;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  margin-left: 0vw;
+  transition: 0.1s;
+  transition-timing-function: linear;
+  border-bottom: 4px solid #3a405a;
+  margin-left: 0;
+}
+
+.imagine_noapte {
+  background-size: cover;
+  width: 100vw;
+  z-index: -1;
+  float: top;
+  top: 0;
+  margin-left: 0;
+}
+.text_rectangle_image {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.text_imagine {
+  z-index: 1;
+}
+.div_imagine_noapte {
+  background-repeat: no-repeat;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar_button a {
+  text-decoration: none;
+  float: right;
+  height: 100%;
+}
+
+.navbar_button:hover {
+  color: #1a9c9e;
+  transition: 0.06s;
+  transition-timing-function: linear;
+}
+
+.logo {
+  float: left;
+  width: 7.5vw;
+  min-height: 100px;
+  min-width: 258px;
+  height: 50%;
+  background-image: url("./assets/logo_vector.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0vh 0vw 0vh 2vw;
+}
+.detail_rectangle {
+  height: auto;
+  width: 100vw;
+  background-color: #3a405a;
+}
+.site_style {
+  text-decoration: none;
+}
+.navbar_button_explore {
+  background-color: #1b9af7;
+  border-radius: 10px; /* Green */
+  text-decoration: none;
+
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 100%;
+  min-height: 50px;
+
+  margin-left: 0vw;
+  transition: 0.1s;
+  transition-timing-function: linear;
+}
+.text_rectangle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.3vw;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  vertical-align: middle;
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.explore_products {
+  position: static;
+  height: auto;
+  width: 100vw;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 0px 0px;
+  align-content: center;
+  justify-content: center;
+}
+.explore_products_text_div {
+  background-color: #3a405a;
+  height: 50px;
+  width: 100vw;
+}
+.explore_products_text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.placeholder1 {
+  width: auto;
+  height: 30vw;
+  margin: 0px, 5px;
+  margin-left: 20px;
+  overflow: auto;
+}
+
+.placeholder1:hover {
+}
+.i_hate_this {
+  height: auto;
+  width: 100vw;
+  background-color: #e0e0e0;
+}
+.i_hate_this_text {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
